@@ -1,3 +1,4 @@
+import ThemeToggle from "@/components/ThemeToggle";
 import {
   FiGithub,
   FiLinkedin,
@@ -224,6 +225,7 @@ export default function Home() {
             <a href="#contact" className="hover:text-primary">
               Contact
             </a>
+            <ThemeToggle />
           </nav>
         </div>
       </header>
